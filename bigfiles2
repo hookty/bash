@@ -1,0 +1,1 @@
+ls -lS $1 | awk '{print $5, $9}' | head -n 7
